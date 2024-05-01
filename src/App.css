@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.div{
+  
+    background-image: url(
+"https://imgs.search.brave.com/iuyGlnvqqK9ItSc_dM8tWgwwldoH1-rZaJ6xUdMO5VA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wYXBl/ci1hdHRhY2htZW50/cy5kcm9wYm94LmNv/bS9zXzU0NkUwM0U2/RDNBRUM3NTI0NDgw/NDA1NDFCRkU4NUU3/MTMxMTk2NzdGMDJD/QUUzMkU2MzRBRDU1/NDdENDQ5RURfMTU2/NTEwODA2NTMwM19T/Y3JlZW5zaG90XzE1/NjUxMDgwMjgucG5n"
+    );
+    background-size: "cover";
+    height: 96vh;
+    margin-top: -80px;
+    font-size: 25px;
+    background-repeat: no-repeat;
+
+}
